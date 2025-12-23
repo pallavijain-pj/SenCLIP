@@ -24,6 +24,24 @@ Sen2LUCAS dataset contains geotagged Sentinel-2 data, which is obtained from the
 
 We have released four model checkpoints, covering both RN50 and ViT-B/32 architectures, with variants for average pooling and attention pooling.
 
+## Citation
+```bibtex
+@article{jain2024senclip,
+  title={SenCLIP: Enhancing zero-shot land-use mapping for Sentinel-2 with ground-level prompting},
+  author={Jain, Pallavi and Ienco, Dino and Interdonato, Roberto and Berchoux, Tristan and Marcos, Diego},
+  journal={arXiv preprint arXiv:2412.08536},
+  year={2024}
+}
+
+@inproceedings{jain2025senclip,
+  title={SenCLIP: Enhancing zero-shot land-use mapping for Sentinel-2 with ground-level prompting},
+  author={Jain, Pallavi and Ienco, Dino and Interdonato, Roberto and Berchoux, Tristan and Marcos, Diego},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={5656--5665},
+  year={2025},
+  organization={IEEE}
+}
+```
 # Acknowledgments
 This repository is based on [CLIP](https://github.com/openai/CLIP) and [Sat2Cap](https://github.com/mvrl/Sat2Cap/tree/main) repositories.
 For caption generation we used [CLIPCap](https://github.com/rmokady/CLIP_prefix_caption?tab=readme-ov-file) repository.
