@@ -48,8 +48,6 @@ This repository is based on [CLIP](https://github.com/openai/CLIP) and [Sat2Cap]
 For caption generation we used [CLIPCap](https://github.com/rmokady/CLIP_prefix_caption?tab=readme-ov-file) repository.
 
 ## Funding
-# Funding
-
 <table>
   <tr>
     <td width="200">
