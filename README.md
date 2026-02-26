@@ -48,13 +48,17 @@ This repository is based on [CLIP](https://github.com/openai/CLIP) and [Sat2Cap]
 For caption generation we used [CLIPCap](https://github.com/rmokady/CLIP_prefix_caption?tab=readme-ov-file) repository.
 
 ## Funding
+# Funding
+
 <table>
   <tr>
     <td width="200">
       <img src="image.png" width="180" alt="Funding Logo">
     </td>
     <td>
+      <sub>
       Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. UK participants in the GRANULAR project are supported by UKRI – Grant numbers 10039965 (James Hutton Institute) and 10041831 (University of Southampton).
+      </sub>
     </td>
   </tr>
 </table>
