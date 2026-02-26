@@ -14,12 +14,12 @@ Accepted at WACV'25!
 [Sen2LUCAS Dataset](https://zenodo.org/badge/DOI/10.5281/zenodo.14231252.svg)
 
 [LUCAS Frozen Embeddings 🤗](https://huggingface.co/pallavijainpj/SenCLIP/tree/main/LUCAS_CLIP_Frozen_Embeddings)
-# Model Architecture
+## Model Architecture
 <div align="center">
 <img src="model_arch.jpg" width="1000" height="500">
 </div>
 
-# Dataset and Checkpoints
+## Dataset and Checkpoints
 Sen2LUCAS dataset contains geotagged Sentinel-2 data, which is obtained from the LUCAS 2018 dataset, consisting of 100x100 pixel images with three spectral bands (RGB). Data was retrieved using the [Planetary Computers API](https://planetarycomputer.microsoft.com/docs/quickstarts/reading-stac/), focusing on the same months as the LUCAS data. To ensure minimal cloud interference (10-20% cloud coverage), the collection window was extended by up to ±2 months based on the availability of cloud-free images.
 
 We have released four model checkpoints, covering both RN50 and ViT-B/32 architectures, with variants for average pooling and attention pooling.
@@ -42,6 +42,19 @@ We have released four model checkpoints, covering both RN50 and ViT-B/32 archite
   organization={IEEE}
 }
 ```
-# Acknowledgments
+
+## Acknowledgments
 This repository is based on [CLIP](https://github.com/openai/CLIP) and [Sat2Cap](https://github.com/mvrl/Sat2Cap/tree/main) repositories.
 For caption generation we used [CLIPCap](https://github.com/rmokady/CLIP_prefix_caption?tab=readme-ov-file) repository.
+
+## Funding
+<table>
+  <tr>
+    <td width="200">
+      <img src="image.png" width="180" alt="Funding Logo">
+    </td>
+    <td>
+      Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them. UK participants in the GRANULAR project are supported by UKRI – Grant numbers 10039965 (James Hutton Institute) and 10041831 (University of Southampton).
+    </td>
+  </tr>
+</table>
